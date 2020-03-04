@@ -15,7 +15,13 @@
 <img src="./img/siteimprove.PNG" />
 
 #### Список найденных ошибок:
-* (А) 1.3.1 Info and Relationships. The 'bold' tag is used to highlight text.
+* (А) 1.3.1 Info and Relationships. 
+    - The 'bold' tag is used to highlight text.
+    - No top-level heading on the page
+    - Landmarks with identical names
+    - Non-distinguishable landmarks
+    - Content not included in landmarks
+    - Are landmarks appropriately applied?
 * (А) 1.4.1 Use of Color
   It appears that color is the only distinguishing feature about links in blocks of text. 
   (Номера телефонов подчеркиваются как ссылки только при ховере)
@@ -24,10 +30,19 @@
 *  (ААА) 1.4.6 Contrast (Enhanced).
   The color of the text and the color of the background are not in sufficient contrast to each other.
 * (А) 4.1.2 Name, Role, Value. Missing required WAI-ARIA states or properties.
+    - Missing required WAI-ARIA states or properties
+    - Redundant WAI-ARIA attribute
+* (А) 2.2.1 Timing Adjustable
+* (А) 2.4.3 Focus Order
+    - Is the tabbing sequence logical?
  
  ###### Ошибочно найденные критерии:
  * The 'bold' tag is used to highlight text. Если нам нужно подчеркнуть важность написанного, нужно было бы использовать 'strong'. 
  Но в данном случае bold используется только для указания стилей.
+ * No top-level heading on the page. На динамически появляющемся блоке с поиском, есть заголовок h3, но он не является заголовком страницы
+ * Non-distinguishable landmarks. В навигации nav, в списке ul есть ссылки, по контенту которых можно понять куда ссылка ведет
+ * Focus Order - при мануальном проходе по табам, не было такого результата как в описании ошибки
+ 
  
  
 ### d-e. Аудит страницы в Wave plugin  
